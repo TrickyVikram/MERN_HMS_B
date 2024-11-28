@@ -1,0 +1,14 @@
+
+
+mkdir controllers models routes middlewares utils config
+
+
+touch controllers/authController.js controllers/bookingController.js controllers/studentController.js controllers/roomController.js
+touch models/User.js models/Room.js models/Booking.js models/Student.js
+touch routes/authRoutes.js routes/bookingRoutes.js routes/studentRoutes.js routes/roomRoutes.js
+touch middlewares/authMiddleware.js middlewares/errorHandler.js
+touch utils/db.js utils/logger.js
+
+
+
+touch .env .gitignore README.md
