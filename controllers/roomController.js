@@ -7,6 +7,7 @@ exports.createRoom = async (req, res) => {
 
     // Create a new room
     const room = new Room({
+      
       roomNumber,
       capacity,
       roomType,
